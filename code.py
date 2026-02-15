@@ -24,8 +24,8 @@ display.fill(0)
 
 current_type = 0
 modeltypes = {
-    1: "sleep timer"
-    2: "2"
+    1: "sleep timer",
+    2: "2",
     3: "3"
     }
 timerlength = 3600

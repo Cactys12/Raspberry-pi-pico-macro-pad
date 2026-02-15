@@ -1,5 +1,7 @@
 # Raspberry-pi-pico-macro-pad
 
+*CURRENTLY BROKEN - PLEASE HELP*
+
 Main goal: trying to make a begginer-friendly macro pad using the raspberry pi pico
 
 Python version: circuit python v10

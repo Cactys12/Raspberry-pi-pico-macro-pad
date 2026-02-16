@@ -5,6 +5,7 @@
 ## Main goal: trying to make a begginer-friendly macro pad using the raspberry pi pico ##
 
 Python version: circuit python v10
+
 Libraries required: adafruit_ssd1306, adafruit_hid
 
 ## Actions it can do: ##

@@ -8,7 +8,7 @@ Python version: circuit python v10
 
 Libraries required: adafruit_ssd1306, adafruit_hid
 
-## Actions it can do: ##
+## Actions it can execute: ##
 
 * Sleep timer - waiting for 1 hour(default - in the future, it will be able to be controlled by a pentiometer), then    using the usb_hid protocol to send a play or pause signal to the device it is plugged into
 

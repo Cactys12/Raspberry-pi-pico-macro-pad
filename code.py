@@ -1,8 +1,8 @@
 import usb_hid
 import time
 import busio
-from machine import Pin
-from board import SCL, SDA
+import board
+import microcontroller
 from adafruit_hid.keyboard import Keyboard
 from adafruit_hid.keyboard_layout_us import KeyboardLayoutUS
 from adafruit_hid.mouse import Mouse

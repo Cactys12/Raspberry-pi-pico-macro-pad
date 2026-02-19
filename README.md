@@ -6,7 +6,13 @@
 
 Python version: circuit python v10.
 
-Libraries required: adafruit_ssd1306, adafruit_hid.
+Libraries required: adafruit_ssd1306, adafruit_hid and adafruit_framebuffer
+
+Have a look in the examples folder as well as the links below to see info about the libaries required:
+
+* https://github.com/adafruit/Adafruit_CircuitPython_framebuf?tab=readme-ov-file
+* https://github.com/adafruit/Adafruit_CircuitPython_HID
+* https://github.com/adafruit/Adafruit_SSD1306
 
 ## Actions it can execute: ##
 

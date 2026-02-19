@@ -1,4 +1,4 @@
-# Raspberry-pi-pico-macro-pad
+# Raspberry pi pico macro pad
 
 ## *CURRENTLY BROKEN - PLEASE HELP* ##
 

@@ -8,14 +8,18 @@
 
 ## Libraries required: 
 * adafruit_ssd1306,
-* adafruit_hid,
-* adafruit_framebuffer
+* adafruit_circuitpython_hid,
+* adafruit_circuitpython_framebuffer,
+* adafruit-GFX-Library,
+* adafruit_busio,
 
 Have a look in the examples folder as well as the links below to see info about the libaries required:
 
 * https://github.com/adafruit/Adafruit_CircuitPython_framebuf?tab=readme-ov-file
 * https://github.com/adafruit/Adafruit_CircuitPython_HID
 * https://github.com/adafruit/Adafruit_SSD1306
+* https://github.com/adafruit/Adafruit-GFX-Library
+* https://github.com/adafruit/Adafruit_BusIO
 
 ## Actions it can execute: ##
 

@@ -8,9 +8,6 @@ import usb_hid
 
 #import pins
 from digitalio import DigitalInOut, Direction, Pull
-import gfx
-import machine
-import uos
 import busio
 import board
 import microcontroller
@@ -24,8 +21,6 @@ import adafruit_ssd1306
 i2c = busio.I2C(board.GP1, board.GP0)
 display = adafruit_ssd1306.SSD1306_I2C(128, 32, i2c)
 display.fill(0)
-
-graphics = gfx.GFX(128, 32, display.pixel, hline=fast_hline, vline=fast_vline)
 
 #create buttons
 button1 = board.GP13
@@ -68,10 +63,8 @@ while loop == "true":
     display.show()
     if current_type == 1:
         #sleeps for the length of the timer, then presses pause on the usb device
-        print("timer set for")
-        print(timerlength)
-        display.text("timer set for",0,0)
-        display.text(timerlength,0,12)
+        print("timer set for"+timerlength)
+        display.text("timer set for"+timerlength,0,0)
         display.show()
         timer.sleep(timerlength)
         current_type = 0
